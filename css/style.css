@@ -1,9 +1,9 @@
     /* Global Styles */
     body {
-      font-family: Arial, Verdana, sans-serif;
+      font-family: Arial, Verdana;
       background-color: #000;
       color: #fff;
-      margin: 20px;
+      margin: 20px 20px 0; /* 20px top and sides, 0px (none) on the bottom */
       padding: 20px;
     }
 
@@ -39,7 +39,7 @@
     /* Introduction Class */
     .introduction {
       border-radius: 15px;
-      margin: 15px 0;
+      margin: 0 0 0 15px; 
       line-height: 2;
     }
 
@@ -62,7 +62,9 @@
       border-top: 2px solid #ffffff;
       color: #C4C4C4; /* Grey text */
     }
-
+    #dif{
+      color: #C4C4C4; /* Grey text */
+    }
     /* Yellow Class */
     .yellow {
       background-color: #FFFF00;
@@ -70,7 +72,7 @@
       margin-left: 50px;
       border-bottom: 2px solid #ffffff;
       border-left: 5px solid #ffffff;
-      color: #C4C4C4; /* Grey text */
+      color:  #707070; /* Grey text */
     }
 
     /* Green Class */
