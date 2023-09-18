@@ -33,7 +33,7 @@
     div {
       min-height: 125px;
       padding: 20px;
-      border: 3px solid white;
+      /* border: 3px solid white; */
     }
 
     /* Introduction Class */
@@ -41,6 +41,7 @@
       border-radius: 15px;
       margin: 0 0 0 15px; 
       line-height: 2;
+      border: 3px solid white;
     }
 
     /* Red Class */
